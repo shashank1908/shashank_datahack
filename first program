@@ -1,0 +1,22 @@
+print("hello world!")
+def probability_of_xyzvaccine(a):
+    c = 0
+    total = len(a)
+    for i in a:
+        if i % 2 == 0:
+            c += 1
+    return c / total
+
+set_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 23]
+print("The probability of choosing an even number would be:", probability_of_xyzvaccine(set_of_numbers))
+
+def probability_of_seasonalvaccine(a):
+    c = 0
+    total = len(a)
+    for i in a:
+        if i % 2 == 0:
+            c += 1
+    return c / total
+
+set_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 23]
+print("The probability of choosing an even number would be:", probability_of_seasonalvaccine(set_of_numbers))
